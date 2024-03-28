@@ -15,7 +15,7 @@ st.write(dt.head(10))
 #sepal.length', 'sepal.width', 'petal.length', 'petal.width
 st.subheader("สถิติข้อมูลดอกไม้ Iris")
 st.write('ผลรวม')
-cl1,cl2 cl3 cl4=st.columns(4)
+cl1,cl2,cl3,cl4=st.columns(4)
 cl1.write(dt['sepal.length'].sum())
 cl2.write(dt['sepal.width'].sum())
 cl3.write(dt['petal.length'].sum())
