@@ -7,7 +7,7 @@ st.title("💡Website Developing using Python💡")
 st.subheader("✨💛 Artidtaya Pannin 💛✨")
 st.image('artidtaya.jpg')
 
-dt=pd.read_csv('/data/iris.csv')
+dt=pd.read_csv('./data/iris.csv')
 
 st.subheader("ข้อมูลดอกไม้ Iris")
 st.write(dt.head(10))
